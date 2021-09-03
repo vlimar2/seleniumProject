@@ -19,5 +19,9 @@
     <None Remove="RestSharp" />
     <None Remove="SpecFlow" />
     <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
   </ItemGroup>
 </Project>

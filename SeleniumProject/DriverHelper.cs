@@ -6,6 +6,5 @@ namespace SeleniumProject
     public class DriverHelper
     {
         public static IWebDriver Driver {get; set;}
-        //public int MyProperty { get; set; }
     }   
 }
