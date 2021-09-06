@@ -15,7 +15,7 @@ namespace SeleniumProject.Pages
         IWebElement btnSearch => Driver.FindElement(By.XPath("//button[@id='searchbox-searchbutton']"));
 
         //expected behaviour "dublin"
-        IWebElement expBehavior => Driver.FindElement(By.XPath("//span[@jstcache= '997']"));
+        IWebElement expBehavior => Driver.FindElement(By.XPath("//*[@id='pane']/div/div[1]/div/div/div[2]/div[1]/div[1]/div[1]/h1/span[1]"));
 
         //input desired search
         public void enterDesiredSearch(string name)
@@ -37,6 +37,5 @@ namespace SeleniumProject.Pages
 
         //assert verifying if "Dublin" name exist
         public bool placeExist() => expBehavior.Displayed;
-
     }
 }

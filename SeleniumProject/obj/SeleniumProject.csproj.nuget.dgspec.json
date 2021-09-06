@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Projects/SeleniumProject/SeleniumProject/SeleniumProject.csproj": {}
+    "/Users/apple/Documents/GitHub/seleniumProject/SeleniumProject/SeleniumProject.csproj": {}
   },
   "projects": {
-    "/Users/apple/Projects/SeleniumProject/SeleniumProject/SeleniumProject.csproj": {
+    "/Users/apple/Documents/GitHub/seleniumProject/SeleniumProject/SeleniumProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Projects/SeleniumProject/SeleniumProject/SeleniumProject.csproj",
+        "projectUniqueName": "/Users/apple/Documents/GitHub/seleniumProject/SeleniumProject/SeleniumProject.csproj",
         "projectName": "SeleniumProject",
-        "projectPath": "/Users/apple/Projects/SeleniumProject/SeleniumProject/SeleniumProject.csproj",
+        "projectPath": "/Users/apple/Documents/GitHub/seleniumProject/SeleniumProject/SeleniumProject.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Projects/SeleniumProject/SeleniumProject/obj/",
+        "outputPath": "/Users/apple/Documents/GitHub/seleniumProject/SeleniumProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/apple/.config/NuGet/NuGet.Config"

@@ -26,22 +26,16 @@ namespace SeleniumProject
 
             js.ExecuteScript("window.scrollTo(0,900);");
 
-            System.Threading.Thread.Sleep(2000);
-
             searchPage.clickConcordoButton();
-
-            System.Threading.Thread.Sleep(2000);
 
             searchPage.enterDesiredSearch("Dublin");
 
             searchPage.clickSearchButton();
 
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(5000);
 
             //expected behaviour "Dublin
             //string expected = "//span[@jstcache= '997']";
-
-            //Assert.AreEqual(expected, expected);
 
             Assert.That(searchPage.placeExist);
 
