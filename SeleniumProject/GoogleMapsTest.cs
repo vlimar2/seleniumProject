@@ -34,9 +34,6 @@ namespace SeleniumProject
 
             System.Threading.Thread.Sleep(5000);
 
-            //expected behaviour "Dublin
-            //string expected = "//span[@jstcache= '997']";
-
             Assert.That(searchPage.placeExist);
 
             Driver.Quit();
